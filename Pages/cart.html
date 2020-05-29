@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Image and text -->
+    <div class="brand">
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="#">
+                <span class="material-icons">fastfood</span>
+                <span id="brand-name">BURGER MANIA</span>
+            </a>
+        </nav>
+    </div>
+
+    <div class="cart">
+        <h1>YOUR CART</h1>
+        <!-- <div id="burger">
+            <span id="category">Crispy Supreme</span>
+            <select name="type" id="type">
+                <option value="veg">Veg</option>
+                <option value="egg">Egg</option>
+                <option value="chicken">Chicken</option>
+            </select>
+            <input type="text" placeholder="Enter Quantity" name="" id="quantity">
+            <input id="add" type="button" value="Add to cart">
+        </div> -->
+        <div class="noItem">
+            <span>Currently you have no items in your cart</span>
+        </div>
+        <div class="item" id="columns" >
+            <span>Burger Type</span>
+            <span>Burger Category</span>
+            <span>Price</span>
+            <span>Quantity</span>
+            <span>Total</span>
+            <span>Remove</span>
+        </div>
+       
+        <input id="placeOrderBtn" type="button" value="Place Order">
+    </div>
+
+</body>
+
+<script src="../Scripts/cart.js"></script>
+
+</html>
